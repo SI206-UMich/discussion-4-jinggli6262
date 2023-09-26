@@ -57,7 +57,11 @@ class Rectangle():
     # Otherwise, it returns the perimeter of the rectangle.
 
     # YOUR CODE HERE
-    
+    def perimeter(self):
+        if type(self.width) == int and type(self.height)== int:
+            return 2(self.width+self.height)
+        else:
+            return "Invalid input"
 
 
 def main():
